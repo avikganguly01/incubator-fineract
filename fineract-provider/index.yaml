@@ -1,0 +1,20 @@
+swagger: '2.0'
+info:
+  version: '1.0.0'
+  title: FinSys
+  description: FinSys Agent Banking APIs
+  contact:
+    email: avikganguly010@gmail.com
+host: 'finsys.za'
+basePath: /beatnik-core/
+schemes:
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  $ref#POST_login: "docs/POST_login.yaml"
+    
+  
+  

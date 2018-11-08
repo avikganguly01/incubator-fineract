@@ -260,7 +260,7 @@ task dist(type:Zip){
 }
 
 compileJava{
-    dependsOn rat
+    // dependsOn rat
 }
 pmd {
     sourceSets = [sourceSets.main]
